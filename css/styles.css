@@ -1,0 +1,414 @@
+@charset "UTF-8";
+body {
+  font-family: YuGothic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 3px solid #000000;
+}
+
+a li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.title::after {
+  /*疑似要素*/
+  content: '';
+  display: block;
+  background: black;
+  /*文字色*/
+  height: 5px;
+  width: 69px;
+  margin-top: 10px;
+}
+
+.logo {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+}
+
+.header-left {
+  width: 200px;
+  padding: 50px;
+  float: left;
+}
+
+.header-left p {
+  font-size: 12px;
+  color: white;
+  margin-top: 8px;
+}
+
+.header-right {
+  float: right;
+  display: block;
+}
+
+.catchcopy {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 444px;
+}
+
+.catchcopy h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: black;
+  font-size: 64px;
+}
+
+.catchcopy h2 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: normal;
+  font-weight: bold;
+  color: white;
+}
+
+
+.drawer-menu-item {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* .drawer-brand, .drawer-menu-item a {
+  padding: 30px 30px 5px 30px;
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+} */
+
+.fa.fa-bars {
+  color: black;
+  background-color: white;
+  float: right;
+  font-size: 25px;
+  padding: 20px;
+  display: none;
+}
+
+.top-wrapper {
+  position: relative;
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 200px;
+}
+
+.container {
+  width: 1004px;
+  margin: 0 auto;
+}
+
+.title-about, .title-item, .title-price, .title-blog, .title-access {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-About {
+  width: 306px;
+  padding: 60px 56px;
+  /*    margin: 2em 0;*/
+  font-weight: bold;
+  border: solid 3px white;
+  background-color: #f0f0f0;
+  border: solid 1px #707070;
+  /*
+
+    margin-left:50px;
+*/
+}
+
+.about-sb {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.item-sb, .blog-sb {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.price-sb {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-sb-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about-sb-deteal {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.section-item, .section-price, .section-blog, .section-access {
+  margin-top: 100px;
+}
+
+.item-flex, .blog-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-item, .blog-item {
+  width: 100%;
+}
+
+.blog-item4 {
+  display: none;
+}
+
+.item-title {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.item-deteal {
+  margin-top: 16px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.blog-date {
+  font-weight: bold;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+}
+
+.blog-title {
+  font-size: 12px;
+}
+
+.section-price {
+  position: relative;
+  height: 1000px;
+}
+
+.price-pic {
+  width: 663px;
+  position: absolute;
+  top: 50px;
+  left: 160px;
+  z-index: 10;
+}
+
+.price-list {
+  width: 494px;
+  padding: 71px 37px;
+  font-weight: bold;
+  border: solid 3px #A38787;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.table {
+  font-weight: normal;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.table th, .table td {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+  padding: 10px;
+}
+
+.table tr {
+  border-bottom: dashed 1px #000000;
+}
+
+.address, .tel, .ontime, .offtime {
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.access-sb {
+  margin-bottom: 100px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.access-data dd {
+  margin: 30px 0px 40px 0px;
+}
+
+.access {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.howto {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.howto h3 {
+  margin: 100px 0 50px 0;
+  font-weight: bold;
+}
+
+.howto-title li {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.howtogo {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #262626;
+  width: 100%;
+  height: 100px;
+  display: table;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  text-align: center;
+  font-family: Montserrat;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 670px) {
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+  .img {
+    width: 100%;
+  }
+  .catchcopy {
+    width: auto;
+  }
+  .catchcopy h1 {
+    font-size: 40px;
+  }
+  .catchcopy h2 {
+    font-size: 24px;
+  }
+  .header-right {
+    display: none;
+  }
+  .fa.fa-bars {
+    display: block;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .section-About {
+    width: auto;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .about-pic {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .item-pic {
+    width: 100%;
+  }
+  .item-flex {
+    flex-direction: column;
+    width: 100%;
+  }
+  .section-price {
+    width: auto;
+    height: 600px;
+    background: url(../img/price-pic.png);
+  }
+  .price-pic {
+    display: none;
+  }
+  .price-list {
+    width: 80%;
+    margin-top: 30px;
+    padding: 50px 30px;
+  }
+  .blog-flex {
+    flex-wrap: wrap;
+  }
+  .blog-item, .blog-item4 {
+    width: 49%;
+  }
+  .blog-pic {
+    width: 100%;
+  }
+  .blog-item4 {
+    display: block;
+  }
+  .blog-date {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .blog-title {
+    margin-bottom: 30px;
+  }
+  .access {
+    flex-direction: column;
+  }
+  .map-pic {
+    width: auto;
+  }
+}
