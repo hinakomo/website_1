@@ -374,6 +374,7 @@ footer {
     width: 80%;
     margin-top: 30px;
     padding: 50px 30px;
+    z-index: 1;
   }
   .blog-flex {
     flex-wrap: wrap;
@@ -401,6 +402,3 @@ footer {
     width: auto;
   }
 }
-
-   
-  
